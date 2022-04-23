@@ -1,0 +1,117 @@
+/*
+https: //colorhunt.co/palette/21325e3e497af1d00af0f0f0 - color palette
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #F0F0F0;
+}
+
+nav{
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #21325E;
+    height: 100px;
+    
+}
+
+.navHeader{
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 5%;
+    font-size: 1.7rem;
+}
+
+nav .links{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+ 
+}
+
+
+nav li a{
+    float: right;
+    margin: 0 ;
+    padding: 0 ;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 800;
+    
+}
+
+.container {
+    position: relative;
+    top: 80px;
+    margin: 5%;
+    padding: 4% 0;
+    
+}
+
+.container p{
+    color: grey;
+    padding-top: 3%;
+}
+
+.dayTitle{
+    margin-top: 15px;
+}
+
+p a {
+    text-decoration:  none;
+}
+
+p a:link, p a:visited{
+    color:blue ;
+}
+
+.entry a:hover{
+    color: #1572A1;
+}
+
+.entry{
+    margin-top: -15px;
+}
+
+form{
+    padding-top: 3%;
+}
+
+.formHeader{
+    font-size: 1rem;
+    display: block;
+    
+}
+input[type="text"]
+{
+    width: 80%;
+}
+
+
+
+button{
+    display: block;
+    margin-top: 25px;
+    background-color: #3E497A;
+    color: white;
+    padding: 0.5%;
+    border-radius: 4px;
+    border-style: none;
+}

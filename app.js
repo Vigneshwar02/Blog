@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 const express = require("express");
 const ejs = require("ejs");
 const _ = require("lodash");
@@ -52,6 +54,6 @@ app.get("/posts/:title",function (req,res) {
     })
 })
 
-app.listen(3000,function name(params) {
+app.listen(process.env.PORT,function name(params) {
     console.log("server's running at port 3000");
 })

@@ -42,7 +42,7 @@ nav .links{
     align-items: center;
     height: 100%;
     width: 60%;
- 
+    flex-wrap: wrap;
 }
 
 
